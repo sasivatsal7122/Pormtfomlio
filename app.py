@@ -125,7 +125,7 @@ with st.container():
         st.markdown("""<h3 style="color:red">Senior Secondary (XII), Science</h3>""",unsafe_allow_html=True)
         st.markdown("""<h5> - Ascent Junior College (SSC BOARD) </h5>""",unsafe_allow_html=True)
         st.markdown("""<h5> - Year of completion: 2020</h5>""",unsafe_allow_html=True)
-        st.markdown("""<h5> - CGPA: 9.60/10</h5>""",unsafe_allow_html=True)
+        st.markdown("""<h5> - CGPA: 9.3/10</h5>""",unsafe_allow_html=True)
         st.write("""""")
         st.markdown("""<h3 style="color:red">Secondary (X)</h3>""",unsafe_allow_html=True)
         st.markdown("""<h5>Dr.KKR's Gowtham International School. (SSC board)</h5>""",unsafe_allow_html=True)
