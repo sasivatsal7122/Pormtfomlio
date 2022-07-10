@@ -86,9 +86,17 @@ with st.container():
             - Enthusiasm for data engineering, automating, data visulaization, teaching and fast food 🍕🍟🥓
             - 🐼 You can arrest me for animal trafficking, coz i deal with pandas a lot.
             - ✉️ You can contact me at sasivatsal7122@gmail.com 
+            - Checkout my resume - [Click_Here](https://drive.google.com/file/d/1gPLBjuDx2Uf4O8Bw-MFusUVU_3XSyZu_/view)
             If you are interested in building something together, have questions/suggestions about my code or just wanna connect, feel free to get in touch with me! 
             """
         )
+        download_resume = st.download_button(
+                            label="Download My Resume",
+                            data="resume/SasiVatsal's_Resume.pdf",
+                            file_name="SasiVatsal's_Resume.pdf",
+                            mime='text/pdf',
+                            )
+        
 
 def txt(a):
     _, col, _ = st.columns((1,3,1))
