@@ -3,7 +3,6 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from bokeh.models.widgets import Div
 from PIL import Image
-import PyPDF2 
 
 st.set_page_config(
     page_title="👨‍💻 Satya Sasi Vatsal",
