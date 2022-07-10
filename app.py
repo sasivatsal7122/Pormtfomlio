@@ -3,6 +3,8 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from bokeh.models.widgets import Div
 from PIL import Image
+import webbrowser
+
 
 st.set_page_config(
     page_title="👨‍💻 Satya Sasi Vatsal",
@@ -90,13 +92,10 @@ with st.container():
             """
         )
         pdfFileObj = open("resume/SasiVatsal's_Resume.pdf", 'rb')
-        download_resume = st.download_button(
-                            label="Download My Resume",
-                            data=pdfFileObj ,
-                            file_name="SasiVatsal's_Resume.pdf",
-                            )
-        
-
+        download_resume = st.button("Download My Resume")
+        if download_resume:
+            webbrowser.open('https://drive.google.com/uc?export=download&id=1gPLBjuDx2Uf4O8Bw-MFusUVU_3XSyZu_', new=0)
+   
 def txt(a):
     _, col, _ = st.columns((1,3,1))
     with col:
