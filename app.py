@@ -1,9 +1,9 @@
-#  pip install requests streamlit streamlit_lottie bokeh==2.4.1
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 from bokeh.models.widgets import Div
 from PIL import Image
+import PyPDF2 
 
 st.set_page_config(
     page_title="👨‍💻 Satya Sasi Vatsal",
@@ -90,11 +90,11 @@ with st.container():
             If you are interested in building something together, have questions/suggestions about my code or just wanna connect, feel free to get in touch with me! 
             """
         )
+        pdfFileObj = open("resume/SasiVatsal's_Resume.pdf", 'rb')
         download_resume = st.download_button(
                             label="Download My Resume",
-                            data="resume/SasiVatsal's_Resume.pdf",
+                            data=pdfFileObj ,
                             file_name="SasiVatsal's_Resume.pdf",
-                            mime='text/pdf',
                             )
         
 

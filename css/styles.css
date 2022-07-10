@@ -1,5 +1,3 @@
-/* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
-/* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
   width: 100%; /* Full width */
   height: 100%;
